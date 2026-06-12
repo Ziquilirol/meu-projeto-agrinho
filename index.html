@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrinho 2026 - SmartCampo Paraná</title>
+    <style>
+        /* Visual Geral do Site */
+        body {
+            background-color: #f1f8f5; 
+            color: #2c3e50;
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Cabeçalho com a Foto de Fundo */
+        .topo-site {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('https://images.unsplash.com/photo-1625246333195-78d9c38ad451?q=80&w=1200');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .topo-site h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        /* Caixa de Conteúdo */
+        .conteudo {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        /* Estilo do Botão */
+        .botao-projeto {
+            background-color: #ff9800; /* Laranja */
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 30px;
+            cursor: pointer;
+            /* MOVIMENTO SUAVE: faz o botão crescer de forma bonita */
+            transition: transform 0.3s ease, background-color 0.3s ease; 
+            margin-top: 15px;
+        }
+
+        /* Efeito de Movimento quando passa o mouse */
+        .botao-projeto:hover {
+            background-color: #e65100;
+            transform: scale(1.1) translateY(-3px); /* Faz o botão crescer e subir um pouquinho */
+        }
+    </style>
+</head>
+<body>
+
+    <header class="topo-site">
+        <h1>SmartCampo Paraná</h1>
+        <p>Tecnologia e Sustentabilidade no Concurso Agrinho 2026</p>
+    </header>
+
+    <div class="conteudo">
+        <h2>🌱 Agro Forte, Futuro Sustentável</h2>
+        <p>Nossa ideia é usar sensores conectados à internet para ajudar o agricultor paranaense a monitorar a umidade da terra em tempo real. Isso evita o desperdício de água e protege o nosso solo!</p>
+        
+        <!-- Nosso botão com animação -->
+        <button class="botao-projeto" onclick="alert('Obrigado pelo apoio! Vamos juntos pelo futuro do agro.')">
+            Apoiar essa Ideia 🚀
+        </button>
+    </div>
+
+</body>
+</html>
